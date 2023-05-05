@@ -1,0 +1,349 @@
+/*Estructura general*/
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Castoro Titling', cursive;
+}
+h2 {
+    font-family: 'Cardo', serif;
+}
+p {
+    font-family: 'DM Sans', sans-serif;
+}
+/*Heather*/
+header {
+    background-color: #F7D6D6;
+    padding: 15px;
+}
+.inicio_pagina li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.inicio_pagina a {
+    color: #333;
+    font-size: 1.2rem;
+    padding: 15px;
+}
+.inicio_pagina a:hover {
+    color: #fff;
+    background-color: #333;
+}
+/*Fin de Heather*/
+/*Primer section*/
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    background: url(../img/fondo.png) no-repeat center;
+    background-size: cover;
+    
+}
+.first h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    background-color:  #FEE29B;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*Inicio main*/
+.men {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+    background-color: #fff;
+}
+.men div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.men div h2 {
+    font-size: 2rem;
+}
+.men img {
+    width: 100%;
+    height: 100vh;
+}
+.men div a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #E0E3A4;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.women {
+
+    background-color: #fff;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    height: 100vh;
+}
+.women div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.women div h2 {
+    font-size: 2rem;
+}
+.women img {
+    width: 100%;
+    height: 100vh;
+}
+.women div a {
+
+    font-size: 20px;
+
+    color: #8D6CD5;
+    background-color: #000000;
+
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.accesorios {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+
+    background-color: #fff;
+}
+.accesorios div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accesorios div h2 {
+    font-size: 2rem;
+}
+.accesorios img {
+    width: 100%;
+    height: 100vh;  
+}
+.accesorios div a {
+
+    font-size: 20px;
+
+    color: #D09623;
+    background-color: #000000;
+
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-family: 'DM Sans', sans-serif;   
+}
+
+.opinion {
+    display: grid;
+    grid-template-rows: auto auto;
+    height: 100vh;
+    background-color: #898384;
+}
+.opinion h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.opinion h2 span {
+    color: #E8C7A0;
+}
+.opinion__gente__all img {
+    height: 3.8rem;
+    width: 5rem;
+}
+.opinion__gente {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.opinion__gente__all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: #EDF0F2;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    width: 19rem;
+    height: 19rem;
+    padding: 5px;
+}
+/*Fin de main*/
+
+/*inicio de pie de pagina*/
+footer {
+    background-color: #F0F0F0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__img img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.footer__img p {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+/*Fin de pie de pagina*/
+footer {
+    background-color: #F7D6D6;
+    color: #333;
+    font-size: 16px;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer__link {
+    color: #333;
+    text-decoration: none;
+    margin: 10px;
+}
+.footer__mas {
+    font-size: 14px;
+}
+/*INICIO DE SESION*/
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.login__title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__form label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.login__form input {
+    padding: 0.5rem;
+    width: 30rem;
+    margin-bottom: 1rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.login__form button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*Acerca de*/
+.about-us {
+    background-color: #F8F8F8;
+    padding: 60px 0;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.container h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 40px;
+}
+.container p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 20px;
+}
+/*productos*/
+.productos main {
+    margin: 5px;
+    padding: 40px 20px;
+} 
+.galeria {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+.productos h1 {
+    font-size: 28px;
+    margin: 10px;
+    text-align: center;
+    color: #333;
+}
+.productos h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.productos p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #c87d5d;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.productos img {
+    width: 200px;
+}
+.link {
+    background-color: #c87d5d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
