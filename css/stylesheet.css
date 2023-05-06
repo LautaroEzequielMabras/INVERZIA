@@ -187,21 +187,15 @@ header img {
     height: 100vh; 
     background-color: #e6d4b4;
 }
-.foto {
+.prendas__foto {
     width: 33.33%; 
     height: 100%;
     background-size: cover;
     background-position: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
-.foto1 {
-    background-image: url('/img/ropa11.png');
-}
-.foto2 {
-    background-image: url('/img/ropa12.png');
-}
-.foto3 {
-    background-image: url('/img/ropa13.png');
+.prendas__foto img {
+    height: 100vh;
 }
 /*Fin de main*/
 /*inicio de pie de pagina*/
@@ -232,7 +226,7 @@ footer {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: no-repeat center url(/img/inicio.jpg);
+    background: no-repeat center url(../img/inicio.jpg);
     background-size: cover;
 }
 .login__ {
