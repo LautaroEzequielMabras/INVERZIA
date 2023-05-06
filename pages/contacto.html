@@ -9,24 +9,39 @@
 </head>
 <body>
     <header class="inicio_pagina">
-        <nav>
-            <ul>
-                <li><a class="login_pagina_navegar" href="../index.html">Inicio</a></li>
-                <li><a class="login_pagina_navegar" href="./acerca.html">Acerca de</a></li>
-                <li><a class="login_pagina_navegar" href="./productos.html">Productos</a></li>
-                <li><a class="login_pagina_navegar" href="./contacto.html">Contacto</a></li>
-                <li><a class="login_pagina_navegar" href="./inicio.html">Login   </a></li>
-            </ul>
-        </nav>
+        <img src="../img/logotipo.png" alt="Logo">
+            <nav>
+                <ul>
+                    <li><a class="inicio_pagina_navegar" href="../index.html">Inicio</a></li>
+                    <li><a class="inicio_pagina_navegar" href="/pages/acerca.html">Acerca de</a></li>
+                    <li><a class="inicio_pagina_navegar" href="/pages/productos.html">Productos</a></li>
+                    <li><a class="inicio_pagina_navegar" href="/pages/contacto.html">Contacto</a></li>
+                    <li><a class="inicio_pagina_navegar" href="/pages/inicio.html">Login</a></li>
+                </ul>
+            </nav>
     </header>
+    <main class="contactos">
+        <section class="contactos__">
+            <h1>Contacto</h1>
+            <h2>Formulario de contacto</h2>
+            <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"/>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"/>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+            <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
     <footer>
-        <div class="footer__info">
-            <a href="https://twitter.com/tu_usuario_de_twitter" class="footer__link">Twitter</a>
-            <a href="https://www.instagram.com/tu_usuario_de_instagram/" class="footer__link">Instagram</a>
-            <a href="https://www.facebook.com/tu_pagina_de_facebook" class="footer__link">Facebook</a>
-            <a href="https://wa.me/numero_de_telefono" class="footer__link">WhatsApp</a>
+        <div class="footer_links">
+            <a href="/index.html">Inicio</a>
+            <a href="./acerca.html">Nosotros</a>
+            <a href="./productos.html">Servicios</a>
+            <a href="./contacto.html">Contacto</a>
         </div>
-        <p class="footer__mas">Todos los derechos reservados © 2023</p>
     </footer>
 </body>
 </html>
