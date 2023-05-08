@@ -2,16 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+
 * {
     margin: 0;
     padding: 0;
-    list-style: none;
-    text-decoration: none;
+    list-style: none !important;
+    text-decoration: none !important;
 }
 h1 {
     font-family: 'Castoro Titling', cursive;
@@ -23,27 +19,24 @@ p {
     font-family: 'DM Sans', sans-serif;
 }
 /*Heather*/
-header {
+header nav {
     background-color: #7F7E73;
-    display: grid;
-    grid-template-columns: 20% 80%;
-    align-items: center;
-    justify-content: center;
 }
-.inicio_pagina li {
-    display: inline-block;
-    margin-right: 1.3rem;
+header div ul li {
+    margin-right: 2rem;
 }
-.inicio_pagina a {
+header ul li a {
     color: #000000;
     padding: 0.8rem;
     margin-right: 1.2rem;
     font-size: 1.3rem;
+    text-decoration: none;
+    font-family: 'Cardo', serif;
 }
-.inicio_pagina a:hover {
+header ul li a:hover {
     color: #fff;
 }
-header img {
+header nav a img {
     height: 5rem;
     padding-left: 1rem;
 }
@@ -68,6 +61,7 @@ header img {
 .filter h1 {
     text-align: center;
     font-size: 5rem;
+    color: #000000;
 }
 
 /*Inicio main*/
@@ -105,7 +99,10 @@ header img {
     margin-top: 20px;
     font-family: 'DM Sans', sans-serif;
 }
-
+.men div a:hover {
+    background-color: #C7863E;
+    color: #fff;
+}
 .women {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -126,21 +123,22 @@ header img {
     width: 100%;
     height: 100vh;
 }
+.women div p {
+    font-size: 1.3rem;
+}
 .women div a {
-
     font-size: 1.6rem;
-
     color: #2E744B;
     background-color: #000000;
-
     margin-top: 20px;
     padding: 5px;
     border-radius: 2px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-family: 'DM Sans', sans-serif;
 }
-.women div p {
-    font-size: 1.3rem;
+.women div a:hover {
+    background-color: #2E744B;
+    color: #fff;
 }
 
 .accesorios {
@@ -165,12 +163,9 @@ header img {
     height: 100vh;  
 }
 .accesorios div a {
-
     font-size: 1.6rem;
-
     color: #D8AEB9;
     background-color: #000000;
-
     margin-top: 20px;
     padding: 5px;
     border-radius: 2px;
@@ -179,6 +174,10 @@ header img {
 }
 .accesorios div p {
     font-size: 1.3rem;
+}
+.accesorios div a:hover{
+    background-color: #D8AEB9;
+    color: #fff;
 }
 .prendas {
     display: flex;
@@ -259,7 +258,7 @@ footer {
 
 .login__form input {
     padding: 0.6rem;
-    height: 1.1rem;
+    height: 2rem;
     width: 30rem;
     margin-bottom: 1rem;
     border: 0.1rem solid #F8F8F8;
@@ -375,7 +374,7 @@ color: #000000;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 2rem;
-    margin: 10rem; 
+    width: 42rem;
 }
 .contactos__ h1 {
     font-size: 36px;

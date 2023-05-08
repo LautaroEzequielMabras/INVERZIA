@@ -4,40 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!--CSS-->
     <link rel="stylesheet" href="../css/stylesheet.css">
     <title>Sobre nosotros</title>
 </head>
 <body>
-    <header class="inicio_pagina">
-        <img src="../img/logotipo.png" alt="Logo">
-            <nav>
-                <ul>
-                    <li><a class="inicio_pagina_navegar" href="../index.html">Inicio</a></li>
-                    <li><a class="inicio_pagina_navegar" href="./acerca.html">Acerca de</a></li>
-                    <li><a class="inicio_pagina_navegar" href="./productos.html">Productos</a></li>
-                    <li><a class="inicio_pagina_navegar" href="./contacto.html">Contacto</a></li>
-                    <li><a class="inicio_pagina_navegar" href="./inicio.html">Login</a></li>
-                </ul>
-            </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../img/logotipo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> 
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav" href="./acerca.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav" href="./productos.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav" href="./contacto.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav" href="./inicio.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
     <section class="about__us">
             <div class="about__us__container">
-                <h1>Sobre nosotros</h1>
-                <p>Inverzia es una empresa de ropa que nació de la pasión por la moda y la calidad en cada prenda. Todo comenzó hace varios años cuando sus fundadores notaron que en el mercado no había opciones de ropa que se adaptaran a su estilo de vida activo y moderno.</p>
-                <p>Decididos a crear una marca de ropa única y exclusiva, comenzaron a diseñar y producir ropa con tejidos de alta calidad, cortes elegantes y diseños innovadores. Inverzia rápidamente se convirtió en un éxito entre sus amigos y familiares, y pronto comenzaron a vender sus productos en tiendas locales.</p>
-                <p>Con el tiempo, la marca creció y comenzaron a expandirse a nivel nacional e internacional. Hoy en día, Inverzia es una marca de renombre en el mundo de la moda, conocida por su calidad, estilo y atención al detalle. Cada prenda es diseñada y producida con amor y dedicación, y la empresa se enorgullece de ofrecer una experiencia de compra excepcional a sus clientes.</p>
-                <p>A pesar de su crecimiento, los fundadores de Inverzia siguen comprometidos con sus valores originales: crear ropa de alta calidad con estilo y elegancia, y ofrecer una experiencia de compra personalizada y excepcional. Para ellos, Inverzia no es solo una marca, es una pasión por la moda y la calidad que comparten con cada uno de sus clientes.</p>
+                <h1>About us</h1>
+                <p>Inverzia is a clothing company born out of a passion for fashion and quality in every garment. It all started several years ago when its founders noticed that there were no clothing options in the market that suited their active and modern lifestyle.<br>
+
+                Determined to create a unique and exclusive clothing brand, they began designing and producing clothing with high-quality fabrics, elegant cuts, and innovative designs. Inverzia quickly became a success among their friends and family, and soon they began selling their products in local stores.<br>
+                    
+                Over time, the brand grew and they began expanding nationally and internationally. Today, Inverzia is a renowned fashion brand known for its quality, style, and attention to detail. Each garment is designed and produced with love and dedication, and the company prides itself on offering an exceptional shopping experience to its customers.<br>
+                    
+                Despite their growth, the founders of Inverzia remain committed to their original values: creating high-quality clothing with style and elegance, and offering a personalized and exceptional shopping experience. For them, Inverzia is not just a brand, it is a passion for fashion and quality that they share with each of their customers.</p>
             </div>
     </section>
     </main>
     <footer>
         <div class="footer_links">
-            <a href="../index.html">Inicio</a>
-            <a href="./acerca.html">Nosotros</a>
-            <a href="./productos.html">Servicios</a>
-            <a href="./contacto.html">Contacto</a>
+            <a href="../index.html">Home</a>
+            <a href="./acerca.html">About us</a>
+            <a href="./productos.html">Services</a>
+            <a href="./contacto.html">Contact</a>
         </div>
     </footer>
+    <!--BOOSTRAP JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 </html>
