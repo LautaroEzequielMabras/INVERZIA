@@ -511,6 +511,7 @@ textarea {
         padding-top: 5px;
         width: 100%;
         height: auto;
+        margin: 25px 0px 25px 0px;
     }
 
     .men div a {
@@ -525,12 +526,11 @@ textarea {
     .women {
         grid-template-columns: 100%;
         height: auto;
-        margin: 10px 0 10px 0;
     }
 
     .women div,
     .women img {
-        padding-top: 5px;
+        margin: 25px 0px 25px 0px;
         width: 100%;
         height: auto;
     }
@@ -542,7 +542,7 @@ textarea {
 
     .accesorios div {
         order: 2;
-        margin-bottom: 10px;
+        margin: 25px 0px 50px 0px;
         width: 100%;
         height: auto;
     }
@@ -552,7 +552,7 @@ textarea {
     }
 
     .accesorios img {
-        padding-top: 5px;
+        margin: 25px 0px 25px 0px;
         width: 100%;
         height: auto;
     }
