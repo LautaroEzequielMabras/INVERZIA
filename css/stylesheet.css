@@ -310,9 +310,9 @@ footer {
     height: 2rem;
     width: 30rem;
     margin-bottom: 1rem;
-    border: 0.1rem solid #F8F8F8;
+    border: 0.1rem solid #f8f8f8;
     border-radius: 5px;
-    background-color: #F8F8F8;
+    background-color: #f8f8f8;
 }
 
 .login__form button {
@@ -620,4 +620,44 @@ textarea {
         margin-right: 10px;
         margin-bottom: 10px;
     }
+
+    /*Contactos*/
+    .contactos__ {
+        width: 90%;
+    }
+
+    .contactos__ form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contactos__ form label {
+        margin-bottom: 0.5rem;
+    }
+
+    .contactos__ form input,
+    .contactos__ form textarea {
+        width: 100%;
+    }
+
+    .contactos__ form button {
+        width: 100%;
+    }
+    .login__ {
+        width: 90%;
+        height: auto;
+      }
+    
+      .login__title {
+        font-size: 2rem;
+      }
+    
+      .login__form input {
+        width: 100%;
+      }
+    
+      .login__form button {
+        width: 100%;
+      }
 }
