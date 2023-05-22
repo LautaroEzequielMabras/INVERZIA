@@ -162,4 +162,41 @@
             }
         }
     }
+
+    /*login*/
+    .login {
+        align-items: center;
+        padding: 2rem;
+        height: auto;
+        background: no-repeat center url(../img/inicio.jpg);
+        background-size: cover;
+
+        .login__ {
+            width: 100%;
+            height: auto;
+            margin-top: 2rem;
+
+            div {
+                h1 {
+                    font-size: 2.5rem;
+                    padding-top: 1.5rem;
+                }
+
+                div {
+                    width: 100%;
+
+                    label {
+                        font-size: 1.2rem;
+                    }
+
+                    input {
+                        width: 100%;
+                        max-width: 100%;
+                        margin: 0px 2px 1rem 2px;
+                    }
+                }
+            }
+        }
+    }
+
 }
