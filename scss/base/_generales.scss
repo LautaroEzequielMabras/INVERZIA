@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+h1 {
+    font-family: 'Castoro Titling', cursive;
+}
+
+h2 {
+    font-family: 'Cardo', serif;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+}

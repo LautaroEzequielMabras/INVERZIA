@@ -1,0 +1,36 @@
+header {
+    nav {
+        background-color: #7F7E73;
+        padding: 1rem;
+
+        div {
+            a {
+                img {
+                    height: 5rem;
+                    padding-left: 1rem;
+                }
+            }
+
+            div {
+                ul {
+                    li {
+                        margin-right: 2rem;
+
+                        a {
+                            color: #000000;
+                            padding: 0.8rem;
+                            margin-right: 1.2rem;
+                            font-size: 1.3rem;
+                            text-decoration: none;
+                            font-family: 'Cardo', serif;
+
+                            &:hover {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
