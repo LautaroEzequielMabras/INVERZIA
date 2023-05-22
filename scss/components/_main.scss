@@ -11,12 +11,12 @@
         background-color: rgba(255, 255, 255, 0.2);
         width: 100vw;
         backdrop-filter: blur(20px);
-        box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+        @include box-shadow;
 
         h1 {
             text-align: center;
             font-size: 5rem;
-            color: #000000;
+            color: $primary-color;
         }
     }
 }
@@ -25,7 +25,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     height: 100vh;
-    background-color: #fff;
+    background-color: $secondary-color;
 
     a {
         img {
@@ -34,7 +34,7 @@
             transition: 1s;
 
             &:hover {
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                @include box-shadow;
             }
         }
 
@@ -60,22 +60,19 @@
             text-decoration: none;
             font-size: 1.6rem;
             color: #C7863E;
-            background-color: #000000;
+            background-color: $primary-color;
             padding: 5px;
             border-radius: 2px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            @include box-shadow;
             margin-top: 20px;
             font-family: 'DM Sans', sans-serif;
 
             transition: 0.5s;
 
             &:hover {
-                transform: scale(1.1);
-                box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 75);
-                -webkit-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 75);
-                -moz-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 75);
+                @include hover-effects;
                 background-color: #C7863E;
-                color: #fff;
+                color: $secondary-color;
             }
         }
     }
@@ -85,7 +82,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     height: 100vh;
-    background-color: #fff;
+    background-color: $secondary-color;
 
     a {
         img {
@@ -94,7 +91,7 @@
             transition: 1s;
 
             &:hover {
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                @include box-shadow;
             }
         }
     }
@@ -121,15 +118,12 @@
             margin-top: 20px;
             padding: 5px;
             border-radius: 2px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            @include box-shadow;
             font-family: 'DM Sans', sans-serif;
             transition: 0.5s;
 
             &:hover {
-                transform: scale(1.1);
-                box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 75);
-                -webkit-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 75);
-                -moz-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 75);
+                @include hover-effects;
                 background-color: #2E744B;
                 color: #fff;
             }
@@ -165,15 +159,12 @@
             margin-top: 20px;
             padding: 5px;
             border-radius: 2px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            @include box-shadow;
             font-family: 'DM Sans', sans-serif;
             transition: 0.5s;
 
             &:hover {
-                transform: scale(1.1);
-                box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 75);
-                -webkit-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 75);
-                -moz-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 75);
+                @include hover-effects;
                 background-color: #D8AEB9;
                 color: #fff;
             }
@@ -187,7 +178,7 @@
             transition: 1s;
 
             &:hover {
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                @include box-shadow;
             }
         }
     }
@@ -202,7 +193,7 @@
         width: 33.33%;
         background-size: cover;
         background-position: center;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        @include box-shadow;
 
         img {
             width: 100%;
@@ -211,9 +202,7 @@
             transition: 0.5s;
 
             &:hover {
-                box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 75);
-                -webkit-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 75);
-                -moz-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 75);
+                @include box-shadow;
             }
         }
     }
@@ -231,7 +220,7 @@
     .login__ {
         background-color: rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(20px);
-        box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+        @include box-shadow;
         border-radius: 0.5rem;
         width: 50rem;
         height: 26rem;
@@ -242,7 +231,7 @@
                 margin-bottom: 1rem;
                 text-align: center;
                 padding-top: 3rem;
-                color: #fff;
+                color: $secondary-color;
             }
 
             div {
@@ -253,7 +242,7 @@
                 label {
                     font-size: 1.4rem;
                     margin-bottom: 0.5rem;
-                    color: #fff;
+                    color: $secondary-color;
                 }
 
                 input {
@@ -280,7 +269,7 @@
 
                     &:hover {
                         background-color: #689f38;
-                        color: #000000;
+                        color: $primary-color;
                     }
                 }
 
@@ -349,12 +338,11 @@
         padding: 20px;
         border-radius: 2px;
         background-color: #f5f5f5;
-        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        @include box-shadow;
         transition: 1s;
 
         &:hover {
-            transform: scale(1.1);
-            box-shadow: 0px 2px 10px rgba(0, 0, 0, 72);
+            @include hover-effects;
         }
 
         img {

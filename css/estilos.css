@@ -21,6 +21,8 @@ h2 {
 p {
   font-family: 'DM Sans', sans-serif; }
 
+/* Variables */
+/* Mixins */
 footer {
   background-color: #1c1c1c;
   color: #fff;
@@ -67,7 +69,7 @@ header nav {
     background-color: rgba(255, 255, 255, 0.2);
     width: 100vw;
     backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5); }
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
     .filter #blur h1 {
       text-align: center;
       font-size: 5rem;
@@ -77,7 +79,7 @@ header nav {
   display: grid;
   grid-template-columns: 50% 50%;
   height: 100vh;
-  background-color: #fff; }
+  background-color: #ffffff; }
   .men a img {
     width: 100%;
     height: 100vh;
@@ -106,18 +108,17 @@ header nav {
       font-family: 'DM Sans', sans-serif;
       transition: 0.5s; }
       .men div a:hover {
-        transform: scale(1.1);
-        box-shadow: 10px 10px 21px -4px black;
-        -webkit-box-shadow: 10px 10px 21px -4px black;
-        -moz-box-shadow: 10px 10px 21px -4px black;
         background-color: #C7863E;
-        color: #fff; }
+        color: #ffffff; }
+        .men div a:hover:hover {
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          transform: scale(1.1); }
 
 .women {
   display: grid;
   grid-template-columns: 50% 50%;
   height: 100vh;
-  background-color: #fff; }
+  background-color: #ffffff; }
   .women a img {
     width: 100%;
     height: 100vh;
@@ -145,12 +146,11 @@ header nav {
       font-family: 'DM Sans', sans-serif;
       transition: 0.5s; }
       .women div a:hover {
-        transform: scale(1.1);
-        box-shadow: 10px 10px 21px -4px black;
-        -webkit-box-shadow: 10px 10px 21px -4px black;
-        -moz-box-shadow: 10px 10px 21px -4px black;
         background-color: #2E744B;
         color: #fff; }
+        .women div a:hover:hover {
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          transform: scale(1.1); }
 
 .accesorios {
   display: grid;
@@ -178,12 +178,11 @@ header nav {
       font-family: 'DM Sans', sans-serif;
       transition: 0.5s; }
       .accesorios div a:hover {
-        transform: scale(1.1);
-        box-shadow: 10px 10px 21px -4px black;
-        -webkit-box-shadow: 10px 10px 21px -4px black;
-        -moz-box-shadow: 10px 10px 21px -4px black;
         background-color: #D8AEB9;
         color: #fff; }
+        .accesorios div a:hover:hover {
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          transform: scale(1.1); }
   .accesorios a img {
     width: 100%;
     height: 100vh;
@@ -199,16 +198,14 @@ header nav {
     width: 33.33%;
     background-size: cover;
     background-position: center;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); }
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
     .prendas .prendas__foto img {
       width: 100%;
       height: 100%;
       object-fit: cover;
       transition: 0.5s; }
       .prendas .prendas__foto img:hover {
-        box-shadow: 10px 10px 21px -4px black;
-        -webkit-box-shadow: 10px 10px 21px -4px black;
-        -moz-box-shadow: 10px 10px 21px -4px black; }
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 /*Segundo apartado: Login*/
 .login {
@@ -221,7 +218,7 @@ header nav {
   .login .login__ {
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 0.5rem;
     width: 50rem;
     height: 26rem; }
@@ -230,7 +227,7 @@ header nav {
       margin-bottom: 1rem;
       text-align: center;
       padding-top: 3rem;
-      color: #fff; }
+      color: #ffffff; }
     .login .login__ div div {
       display: flex;
       flex-direction: column;
@@ -238,7 +235,7 @@ header nav {
       .login .login__ div div label {
         font-size: 1.4rem;
         margin-bottom: 0.5rem;
-        color: #fff; }
+        color: #ffffff; }
       .login .login__ div div input {
         padding: 0.6rem;
         height: 2rem;
@@ -307,11 +304,11 @@ header nav {
     padding: 20px;
     border-radius: 2px;
     background-color: #f5f5f5;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: 1s; }
-    .productos .item:hover {
-      transform: scale(1.1);
-      box-shadow: 0px 2px 10px black; }
+    .productos .item:hover:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      transform: scale(1.1); }
     .productos .item img {
       width: 100%;
       max-width: 200px;

@@ -1,2 +1,15 @@
+/* Variables */
+$primary-color: #000000;
+$secondary-color: #ffffff;
 
+/* Mixins */
+@mixin box-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
+@mixin hover-effects {
+    &:hover {
+        @include box-shadow;
+        transform: scale(1.1);
+    }
+}
