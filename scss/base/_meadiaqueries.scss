@@ -199,4 +199,67 @@
         }
     }
 
+    /*register*/
+    .registro {
+        width: 100%;
+        margin: 20px;
+
+        h1 {
+            font-size: 24px;
+        }
+
+        form {
+            .form-group {
+
+                label {
+                    font-size: 16px;
+                }
+
+                input {
+                    font-size: 14px;
+                }
+
+                input[type="submit"] {
+                    padding: 10px 16px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    /*pago*/
+    .pago {
+        .container {
+            padding: 10px;
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .payment-images {
+                flex-wrap: wrap;
+                justify-content: center;
+
+                img {
+                    width: 120px;
+                    margin: 10px;
+                }
+            }
+
+            .payment-form {
+                label {
+                    font-size: 14px;
+                }
+
+                input {
+                    font-size: 14px;
+                }
+
+                input[type="submit"] {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
 }
