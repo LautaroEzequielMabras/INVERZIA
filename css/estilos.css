@@ -304,11 +304,7 @@ header nav {
     padding: 20px;
     border-radius: 2px;
     background-color: #f5f5f5;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transition: 1s; }
-    .productos .item:hover:hover {
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      transform: scale(1.1); }
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
     .productos .item img {
       width: 100%;
       max-width: 200px;
@@ -598,7 +594,7 @@ header nav {
         .login .login__ div div label {
           font-size: 1.2rem; }
         .login .login__ div div input {
-          width: 100%;
+          width: 90%;
           max-width: 100%;
           margin: 0px 2px 1rem 2px; }
   /*register*/

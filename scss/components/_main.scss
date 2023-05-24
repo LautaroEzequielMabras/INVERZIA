@@ -339,11 +339,6 @@
         border-radius: 2px;
         background-color: #f5f5f5;
         @include box-shadow;
-        transition: 1s;
-
-        &:hover {
-            @include hover-effects;
-        }
 
         img {
             width: 100%;
