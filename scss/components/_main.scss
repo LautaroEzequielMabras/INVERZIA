@@ -388,15 +388,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #bdaa93;
+    padding: 10px;
 
     .contactos__ {
         background-color: #fff;
         border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        padding: 2rem;
-        width: 42rem;
+        @include box-shadow;
+        width: 41rem;
 
         h1 {
             font-size: 36px;
@@ -460,14 +459,15 @@
 /*Pago*/
 .pago {
     padding: 10px;
-    background-color: #f2f2f2;
+    background-color: #bdaa93;
 
     .container {
         max-width: 800px;
         margin: 0 auto;
+        border-radius: 10px;
         padding: 20px;
         background-color: #fff;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        @include box-shadow;
 
         h1 {
             text-align: center;
@@ -488,11 +488,11 @@
                 width: 150px;
                 height: auto;
                 border-radius: 10px;
-                box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+                @include box-shadow;
                 transition: transform 0.3s ease;
 
                 &:hover {
-                    transform: scale(1.1);
+                    @include hover-effects;
                 }
             }
         }
@@ -501,7 +501,7 @@
             background-color: #f9f9f9;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+            @include box-shadow;
 
             label {
                 display: block;
@@ -540,7 +540,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: #bdaa93;
 
 }
 
@@ -550,7 +550,7 @@
     margin: 50px auto;
     background-color: #f2f2f2;
     border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    @include box-shadow;
 
     h1 {
         text-align: center;
@@ -583,7 +583,7 @@
         }
 
         input[type="submit"] {
-            background-color: #3f51b5;
+            background-color: #4CAF50;
             color: white;
             border: none;
             cursor: pointer;
@@ -591,7 +591,7 @@
             font-size: 20px;
 
             &:hover {
-                background-color: #364395;
+                background-color: #45a049;
             }
         }
     }
