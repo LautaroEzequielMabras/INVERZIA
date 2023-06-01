@@ -5,16 +5,28 @@ header {
 
         div {
             a {
-                img {
+                .logo {
                     height: 5rem;
                     padding-left: 1rem;
+
+                    &:hover {
+                        filter: invert(100%);
+                    }
+                }
+
+                .shoppingcart {
+                    height: 2.3rem;
+                    padding-right: 1rem;
+
+                    &:hover {
+                        filter: invert(100%);
+                    }
                 }
             }
 
             div {
                 ul {
                     li {
-                        margin-right: 2rem;
 
                         a {
                             color: #000000;
@@ -26,6 +38,15 @@ header {
 
                             &:hover {
                                 color: #fff;
+                            }
+                        }
+
+                        .shopping_menu {
+                            height: 2rem;
+                            padding-right: 1rem;
+
+                            &:hover {
+                                filter: invert(100%);
                             }
                         }
                     }

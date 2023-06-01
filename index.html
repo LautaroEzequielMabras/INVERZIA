@@ -27,14 +27,14 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">
-                    <img src="./img/logotipo.png" alt="Imagen de marca">
+                    <img class="logo" src="./img/logotipo.png" alt="Imagen de marca">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav active" aria-current="page" href="./index.html">Home</a>
                         </li>
@@ -48,13 +48,22 @@
                             <a class="nav" href="./pages/contacto.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav" href="./pages/inicio.html">Login</a>
+                            <a class="nav" href="./pages/inicio.html">Login/Register</a>
+                        </li>
+                        <li class="nav-item d-lg-none">
+                            <a class="nav" href="./pages/pago.html">
+                                <span class="material-icons"><img class="shopping_menu" src="./img/shoppingcart.png" alt="shoppingcart"></span>
+                            </a>
                         </li>
                     </ul>
                 </div>
+                <a class="nav d-none d-lg-block" href="./pages/pago.html">
+                    <img class="shoppingcart" src="./img/shoppingcart.png" alt="shoppingcart">
+                </a>
             </div>
         </nav>
     </header>
+    
     <main>
         <!-- Principal -->
         <section class="filter">

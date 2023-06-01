@@ -42,20 +42,30 @@ footer {
 header nav {
   background-color: #7F7E73;
   padding: 1rem; }
-  header nav div a img {
+  header nav div a .logo {
     height: 5rem;
     padding-left: 1rem; }
-  header nav div div ul li {
-    margin-right: 2rem; }
-    header nav div div ul li a {
-      color: #000000;
-      padding: 0.8rem;
-      margin-right: 1.2rem;
-      font-size: 1.3rem;
-      text-decoration: none;
-      font-family: 'Cardo', serif; }
-      header nav div div ul li a:hover {
-        color: #fff; }
+    header nav div a .logo:hover {
+      filter: invert(100%); }
+  header nav div a .shoppingcart {
+    height: 2.3rem;
+    padding-right: 1rem; }
+    header nav div a .shoppingcart:hover {
+      filter: invert(100%); }
+  header nav div div ul li a {
+    color: #000000;
+    padding: 0.8rem;
+    margin-right: 1.2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-family: 'Cardo', serif; }
+    header nav div div ul li a:hover {
+      color: #fff; }
+  header nav div div ul li .shopping_menu {
+    height: 2rem;
+    padding-right: 1rem; }
+    header nav div div ul li .shopping_menu:hover {
+      filter: invert(100%); }
 
 /*Pagina principal*/
 .filter {
