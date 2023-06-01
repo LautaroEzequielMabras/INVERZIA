@@ -25,7 +25,7 @@ p {
 /* Mixins */
 footer {
   background-color: #222222;
-  padding: 40px 0;
+  padding: 10px 0;
   color: #ffffff;
   text-align: center; }
   footer .footer-container {
@@ -50,7 +50,11 @@ footer {
     footer .footer-container .footer-text h3 {
       font-family: 'Castoro Titling', cursive;
       font-size: 24px;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      transition: 0.3s ease; }
+      footer .footer-container .footer-text h3:hover {
+        color: #ff00ff;
+        cursor: pointer; }
     footer .footer-container .footer-text p {
       font-family: 'Cardo', serif;
       font-size: 14px;
@@ -636,8 +640,8 @@ body {
           margin: 0px 2px 1rem 2px; }
   /*register*/
   .registro {
-    width: 90%;
-    margin: 30px auto; }
+    width: 80vw;
+    margin: 10px auto; }
   /*pago*/
   .pago .container {
     padding: 10px; }

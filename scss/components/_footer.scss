@@ -1,6 +1,6 @@
 footer {
     background-color: #222222;
-    padding: 40px 0;
+    padding: 10px 0;
     color: #ffffff;
     text-align: center;
 
@@ -39,6 +39,11 @@ footer {
                 font-family: 'Castoro Titling', cursive;
                 font-size: 24px;
                 margin-bottom: 10px;
+                transition: 0.3s ease;
+                &:hover {
+                    color: $efecto-color;
+                    cursor: pointer;
+                }
             }
 
             p {
