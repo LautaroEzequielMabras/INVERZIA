@@ -37,8 +37,8 @@ footer {
         display: inline-block;
         margin: 0 10px; }
         footer .footer-container .social-media a img {
-          height: 30px;
-          width: 30px;
+          height: 35px;
+          width: 35px;
           filter: invert(100%);
           transition: transform 0.3s ease; }
           footer .footer-container .social-media a img:hover {
@@ -46,7 +46,7 @@ footer {
     footer .footer-container .footer-line {
       border: none;
       border-top: 1px solid #666666;
-      margin: 20px 0; }
+      margin: 10px 0; }
     footer .footer-container .footer-text h3 {
       font-family: 'Castoro Titling', cursive;
       font-size: 24px;
