@@ -24,20 +24,37 @@ p {
 /* Variables */
 /* Mixins */
 footer {
-  background-color: #1c1c1c;
-  color: #fff;
-  padding: 1rem;
-  font-size: 1.2rem;
+  background-color: #222222;
+  padding: 40px 0;
+  color: #ffffff;
   text-align: center; }
-  footer div {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    footer div a {
-      color: #fff;
-      margin-right: 20px; }
-      footer div a:hover {
-        color: #4e4e4e; }
+  footer .footer_container {
+    max-width: 1200px;
+    margin: 0 auto; }
+    footer .footer_container .social_media {
+      margin-bottom: 20px; }
+      footer .footer_container .social_media a {
+        display: inline-block;
+        margin: 0 10px; }
+        footer .footer_container .social_media a img {
+          height: 30px;
+          width: 30px;
+          filter: invert(100%);
+          transition: transform 0.3s ease; }
+          footer .footer_container .social_media a img:hover {
+            transform: scale(1.2); }
+    footer .footer_container .footer_line {
+      border: none;
+      border-top: 1px solid #666666;
+      margin: 20px 0; }
+    footer .footer_container .footer_text h3 {
+      font-family: 'Castoro Titling', cursive;
+      font-size: 24px;
+      margin-bottom: 10px; }
+    footer .footer_container .footer_text p {
+      font-family: 'Cardo', serif;
+      font-size: 14px;
+      margin-bottom: 5px; }
 
 header nav {
   background-color: #7F7E73;
@@ -68,6 +85,9 @@ header nav {
       filter: invert(100%); }
 
 /*Pagina principal*/
+body {
+  overflow-x: hidden; }
+
 .filter {
   display: flex;
   align-items: center;
@@ -302,45 +322,49 @@ header nav {
     text-align: center; }
   .productos .galeria {
     display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     margin: 2rem; }
   .productos .item {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     padding: 20px;
     border-radius: 2px;
     background-color: #f5f5f5;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
-    .productos .item img {
-      width: 100%;
-      max-width: 200px;
-      height: auto; }
-    .productos .item h3 {
-      font-size: 20px;
-      margin-top: 20px;
-      margin-bottom: 10px;
-      color: #333;
-      font-family: 'DM Sans', sans-serif; }
-    .productos .item p {
-      font-size: 18px;
+    .productos .item .item-details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       margin-bottom: 20px;
-      color: #c87d5d; }
-    .productos .item .link {
-      background-color: #c87d5d;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      padding: 10px 20px;
-      font-size: 16px;
-      transition: 1s; }
-      .productos .item .link:hover {
-        transform: scale(1.1);
-        background-color: #a5694f;
-        color: #fff; }
+      color: #333;
+      font-family: 'DM Sans', sans-serif;
+      text-align: center; }
+      .productos .item .item-details img {
+        width: auto;
+        max-width: 100%;
+        max-height: 300px;
+        height: auto; }
+      .productos .item .item-details h3 {
+        font-size: 20px;
+        margin-bottom: 10px; }
+      .productos .item .item-details p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: #c87d5d; }
+      .productos .item .item-details .link {
+        background-color: #c87d5d;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        transition: 1s; }
+        .productos .item .item-details .link:hover {
+          transform: scale(1.1);
+          background-color: #a5694f;
+          color: #fff; }
 
 /*Quinto apartado: Contacto*/
 .contactos {
@@ -558,7 +582,8 @@ header nav {
     font-size: 2.2rem;
     margin-bottom: 20px; }
   .about__us .about__us__container p {
-    font-size: 1.4rem; }
+    font-size: 1.4rem;
+    margin: 20px; }
   /*Galeria de fotos*/
   .productos h1 {
     font-size: 1.8rem; }
@@ -629,4 +654,10 @@ header nav {
     .pago .container .payment-form input {
       font-size: 14px; }
     .pago .container .payment-form input[type="submit"] {
-      font-size: 16px; } }
+      font-size: 16px; }
+  footer .footer_container .social_media a {
+    margin: 5px; }
+  footer .footer_container .footer_text h3 {
+    font-size: 20px; }
+  footer .footer_container .footer_text p {
+    font-size: 12px; } }

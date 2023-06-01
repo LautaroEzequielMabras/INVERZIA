@@ -102,6 +102,7 @@
 
             p {
                 font-size: 1.4rem;
+                margin: 20px;
             }
         }
     }
@@ -235,6 +236,26 @@
 
                 input[type="submit"] {
                     font-size: 16px;
+                }
+            }
+        }
+    }
+
+    footer {
+        .footer_container {
+            .social_media {
+                a {
+                    margin: 5px;
+                }
+            }
+
+            .footer_text {
+                h3 {
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 12px;
                 }
             }
         }
