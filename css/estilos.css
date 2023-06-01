@@ -118,9 +118,10 @@ body {
   .men a img {
     width: 100%;
     height: 100vh;
-    transition: 1s; }
+    transition: 0.5s; }
     .men a img:hover {
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      filter: brightness(80%); }
   .men .men__content {
     display: flex;
     flex-direction: column;
@@ -157,9 +158,10 @@ body {
   .women a img {
     width: 100%;
     height: 100vh;
-    transition: 1s; }
+    transition: filter 0.5s; }
     .women a img:hover {
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      filter: brightness(80%); }
   .women .women__content {
     display: flex;
     flex-direction: column;
@@ -221,26 +223,27 @@ body {
   .accesorios a img {
     width: 100%;
     height: 100vh;
-    transition: 1s; }
+    transition: 0.5s; }
     .accesorios a img:hover {
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      filter: brightness(80%); }
 
 .prendas {
   display: flex;
-  height: 100vh;
-  background-color: #e6d4b4; }
+  height: 100vh; }
   .prendas .prendas__foto {
-    width: 33.33%;
-    background-size: cover;
-    background-position: center;
+    width: 100%;
+    height: auto;
+    display: block;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
     .prendas .prendas__foto img {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      transition: 0.5s; }
+      transition: filter 0.1s; }
       .prendas .prendas__foto img:hover {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        filter: contrast(150%); }
 
 /*Segundo apartado: Login*/
 .login {
