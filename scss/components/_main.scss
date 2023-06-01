@@ -11,7 +11,7 @@ body {
     background: url(../img/fondo.jpg) no-repeat center;
     background-size: cover;
 
-    #blur {
+    #filter__blur {
         background-color: rgba(255, 255, 255, 0.2);
         width: 100vw;
         backdrop-filter: blur(20px);
@@ -44,7 +44,7 @@ body {
 
     }
 
-    div {
+    .men__content {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -100,7 +100,7 @@ body {
         }
     }
 
-    div {
+    .women__content {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -141,7 +141,7 @@ body {
     height: 100vh;
     background-color: #fff;
 
-    div {
+    .accesorios__content {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -221,7 +221,7 @@ body {
     background: no-repeat center url(../img/inicio.jpg);
     background-size: cover;
 
-    .login__ {
+    .login__container {
         background-color: rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(20px);
         @include box-shadow;
@@ -230,7 +230,7 @@ body {
         height: 26rem;
 
         div {
-            h1 {
+            .login__title {
                 font-size: 3rem;
                 margin-bottom: 1rem;
                 text-align: center;
@@ -238,7 +238,7 @@ body {
                 color: $secondary-color;
             }
 
-            div {
+            .login__form {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -291,22 +291,22 @@ body {
 }
 
 /*Tercer apartado: Acerca de nosotros*/
-.about__us {
+.about-us {
     background-color: #F8F8F8;
     padding: 60px 0;
     text-align: center;
 
-    .about__us__container {
+    .about-us__container {
         max-width: 960px;
         margin: 0 auto;
 
-        h1 {
+        .about-us__title {
             font-size: 2.8rem;
             margin-bottom: 30px;
             color: #000000;
         }
 
-        p {
+        .about-us__description {
             font-size: 1.6rem;
             line-height: 1.5;
             margin-bottom: 20px;
@@ -320,20 +320,20 @@ body {
     padding: 40px 20px;
     background-color: #bdaa93;
 
-    h1 {
+    .productos__title {
         font-size: 2rem;
         margin-top: 10px;
         text-align: center;
     }
 
-    .galeria {
+    .productos__galeria {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
         margin: 2rem;
     }
 
-    .item {
+    .productos__item {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -342,7 +342,7 @@ body {
         background-color: #f5f5f5;
         @include box-shadow;
 
-        .item-details {
+        .productos__item-details {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -396,25 +396,25 @@ body {
     background-color: #bdaa93;
     padding: 10px;
 
-    .contactos__ {
+    .contactos__form {
         background-color: #fff;
         border-radius: 10px;
         @include box-shadow;
         width: 41rem;
 
-        h1 {
+        .contactos__title {
             font-size: 36px;
             font-weight: bold;
             text-align: center;
             margin-bottom: 20px;
         }
 
-        h2 {
+        .contactos__subtitle {
             font-size: 24px;
             margin-bottom: 20px;
         }
 
-        form {
+        .contactos__form__input {
             label {
                 display: block;
                 margin-bottom: 10px;
@@ -474,17 +474,17 @@ body {
         background-color: #fff;
         @include box-shadow;
 
-        h1 {
+        .pago__title {
             text-align: center;
         }
 
-        h2 {
+        .pago__subtitle {
             text-align: center;
             font-size: 24px;
             margin-bottom: 10px;
         }
 
-        .payment-images {
+        .pago__payment-images {
             display: flex;
             justify-content: space-between;
             margin-bottom: 20px;
@@ -502,7 +502,7 @@ body {
             }
         }
 
-        .payment-form {
+        .pago__payment-form {
             background-color: #f9f9f9;
             padding: 20px;
             border-radius: 10px;
@@ -559,18 +559,18 @@ body {
     border-radius: 8px;
     @include box-shadow;
 
-    h1 {
+    .registro__title {
         text-align: center;
         font-size: 28px;
         margin-bottom: 20px;
         color: #333;
     }
 
-    form {
+    .registro__form {
         display: flex;
         flex-direction: column;
 
-        .form-group {
+        .registro__form-group {
             margin-bottom: 20px;
         }
 
