@@ -121,7 +121,7 @@ body {
     transition: 0.5s; }
     .men a img:hover {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      filter: brightness(80%); }
+      filter: brightness(95%); }
   .men .men__content {
     display: flex;
     flex-direction: column;
@@ -161,7 +161,7 @@ body {
     transition: filter 0.5s; }
     .women a img:hover {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      filter: brightness(80%); }
+      filter: brightness(95%); }
   .women .women__content {
     display: flex;
     flex-direction: column;
@@ -226,7 +226,7 @@ body {
     transition: 0.5s; }
     .accesorios a img:hover {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      filter: brightness(80%); }
+      filter: brightness(95%); }
 
 .prendas {
   display: flex;
@@ -243,7 +243,7 @@ body {
       transition: filter 0.1s; }
       .prendas .prendas__foto img:hover {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        filter: contrast(150%); }
+        filter: contrast(117%); }
 
 /*Segundo apartado: Login*/
 .login {
